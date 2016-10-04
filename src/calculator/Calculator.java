@@ -8,7 +8,7 @@ public class Calculator {
     JFrame frame = new JFrame("Calculator");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    CalculatorModel model = new CalculatorModel();
+    CalculatorModel model = new CalculatorModel(); // create the calculator
 
     CalculatorController controller = new CalculatorController(model);
     CalculatorView view = new CalculatorView(model, controller);
